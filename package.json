@@ -1,10 +1,11 @@
 {
   "name": "embedded_membership_site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An embedded membership iframe for squarespace.",
+  "main": "backend/index.js",
   "scripts": {
     "start": "node backend/server.js",
+    "server-dev": "nodemon backend/server.js",
     "build-dev": "webpack -w",
     "dev": "concurrently 'npm:start' 'npm:build-dev'"
   },
@@ -23,6 +24,7 @@
     "babel-jest": "^25.2.6",
     "concurrently": "^5.1.0",
     "jest": "^25.2.7",
+    "nodemon": "^2.0.2",
     "react": "^16.13.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
