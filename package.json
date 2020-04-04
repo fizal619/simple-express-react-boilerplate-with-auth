@@ -1,0 +1,30 @@
+{
+  "name": "embedded_membership_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build-dev": "webpack -w",
+    "dev": "concurrently 'npm:start' 'npm:build-dev'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^1.1.1",
+    "express": "^4.17.1",
+    "knext": "^0.1.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+    "babel-jest": "^25.2.6",
+    "concurrently": "^5.1.0",
+    "jest": "^25.2.7",
+    "react": "^16.13.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
