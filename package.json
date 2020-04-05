@@ -1,7 +1,7 @@
 {
-  "name": "embedded_membership_site",
+  "name": "simple-express-react-boilerplate-with-auth",
   "version": "1.0.0",
-  "description": "An embedded membership iframe for squarespace.",
+  "description": "Express and React Boilerplate with Bookshelf",
   "main": "backend/index.js",
   "scripts": {
     "start": "node backend/server.js",
