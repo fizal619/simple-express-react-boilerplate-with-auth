@@ -1,7 +1,7 @@
 {
   "name": "simple-express-react-boilerplate-with-auth",
   "version": "1.0.0",
-  "description": "Express and React Boilerplate with Bookshelf",
+  "description": "Express and React Boilerplate with Bookshelf & Passport",
   "main": "backend/index.js",
   "scripts": {
     "start": "node backend/server.js",
